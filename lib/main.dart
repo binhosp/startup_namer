@@ -13,7 +13,11 @@ class MyApp extends StatelessWidget {
 
         title: 'Welcome to Flutter',
 
-        home: new RandomWords()
+        home: new RandomWords(),
+
+        theme:  new ThemeData(
+          primaryColor: Colors.white
+        ),
 
     );
   }
