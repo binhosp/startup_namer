@@ -13,19 +13,7 @@ class MyApp extends StatelessWidget {
 
       title: 'Welcome to Flutter',
 
-      home: new Scaffold(
-
-        appBar: new AppBar(
-
-            title: new Text('Welcome do Flutter Text')
-
-        ),
-
-        body: new Center(
-          // child: new Text('Hello World'),
-            child: new RandomWords()
-        ),
-      ),
+      home: new RandomWords()
 
     );
   }
